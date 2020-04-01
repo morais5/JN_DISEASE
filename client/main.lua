@@ -77,7 +77,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(1000)
 		if isSick then
-			DrawMissionText("Estás doente procura um médico ou toma comprimidos!", 1000)
+			DrawMissionText("Estás com Corona Virus procura um médico ou toma comprimidos!", 1000)
 		end
 	end
 end)
