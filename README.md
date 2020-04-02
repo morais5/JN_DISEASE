@@ -1,7 +1,6 @@
 # 🧬 JN_Disease 🧬
 
-script Disease
-
+With this script you get sick and is walking dizzy and has to take pills to an EMS call to help you
 Items
 -Comprimidos (Pills)
 
