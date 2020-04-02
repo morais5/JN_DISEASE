@@ -3,7 +3,7 @@
 script corona virus
 
 Items
--Comprimidos
+-Comprimidos (Pills)
 
 # Installation
 1. Install Script
