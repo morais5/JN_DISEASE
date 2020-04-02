@@ -27,7 +27,7 @@ ESX.RegisterUsableItem('comprimidos', function(source)
 		xPlayer.removeInventoryItem('comprimidos', 1)
 		TriggerClientEvent("esx_doencas:getHealedComp",source)
 		else
-		TriggerClientEvent('esx:showNotification', source,"You can't take this because there is an inem in the city!")
+		TriggerClientEvent('esx:showNotification', source,"You can't take this because there is an EMS in the city!")
 		end
 	end
 end)
