@@ -77,7 +77,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(1000)
 		if isSick then
-			DrawMissionText("Estás com Corona Virus procura um médico ou toma comprimidos!", 1000)
+			DrawMissionText("You have Corona Virus see a doctor or take pills!", 1000)
 		end
 	end
 end)
@@ -119,11 +119,11 @@ AddEventHandler("esx_doencas:getHealedComp",function()
 	isSick = false
 	changeStatus()
 	startAttitude("move_m@shocked@a","move_m@shocked@a")
-	ESX.ShowNotification("Foste curado!")
+	ESX.ShowNotification("You were healed!")
 end)
 RegisterNetEvent("esx_doencas:getHealed")
 AddEventHandler("esx_doencas:getHealed",function()
-	ESX.ShowNotification("Estás a ser curado!")
+	ESX.ShowNotification("You are being healed!")
 	Citizen.CreateThread(function()
 	FreezeEntityPosition(GetPlayerPed(-1), true)
 	Citizen.Wait(3000)
@@ -133,7 +133,7 @@ AddEventHandler("esx_doencas:getHealed",function()
 	isSick = false
 	changeStatus()
 	startAttitude("move_m@shocked@a","move_m@shocked@a")
-	ESX.ShowNotification("Foste curado!")
+	ESX.ShowNotification("You were healed!")
 end)
 Citizen.CreateThread(function()
 	while true do

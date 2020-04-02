@@ -1,2 +1,2 @@
 Config = {}
-Config.ChanceDoenca = 0.10 -- Percentagem 0-100%
+Config.ChanceDoenca = 0.5 -- Percentage 0-100%
