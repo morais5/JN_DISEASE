@@ -89,7 +89,7 @@ function DrawMissionText(m_text, showtime)
 end
 RegisterNetEvent("esx_doencas:healingPlayer")
 AddEventHandler("esx_doencas:healingPlayer",function(target)
-	ESX.ShowNotification("Estás a curar o individuo!")
+	ESX.ShowNotification("You are a healer or individual!")
 	Citizen.CreateThread(function()
 		RequestAnimDict('mini@repair')
 		while not HasAnimDictLoaded( 'mini@repair') do
