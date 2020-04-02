@@ -77,7 +77,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(1000)
 		if isSick then
-			DrawMissionText("You have Corona Virus see a doctor or take pills!", 1000)
+			DrawMissionText("You have Disease see a doctor or take pills!", 1000)
 		end
 	end
 end)

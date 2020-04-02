@@ -1,6 +1,6 @@
-# 🧬 JN_CORONAVIRUS 🧬
+# 🧬 JN_Disease 🧬
 
-script corona virus
+script Disease
 
 Items
 -Comprimidos
@@ -9,6 +9,6 @@ Items
 1. Install Script
 3. Copy the project to your esx resource folder.
 4. Do not forget to import the database.sql file into your database.
-5. Add "start JN_CORONAVIRUS" to your file `server.cfg`
+5. Add "start JN_Disease" to your file `server.cfg`
 
 # 🍀 Good Luck  🍀
